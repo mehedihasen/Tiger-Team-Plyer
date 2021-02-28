@@ -1,0 +1,76 @@
+[{
+    "id": 1,
+    "name": "Tamim Iqbal",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/287.png",
+    "salary": 200000
+  }, {
+    "id": 2,
+    "name": "Shakib Al Hasan",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/201.png",
+    "salary": 200000
+  }, {
+    "id": 3,
+    "name": "Mushfiqur Rahim",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/491.png",
+    "salary": 250000
+  }, {
+    "id": 4,
+    "name": "Mashrafe Mortaza",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/391.png",
+    "salary": 200000
+  }, {
+    "id": 5,
+    "name": "Mahmudullah",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/492.png",
+    "salary": 200000
+  }, {
+    "id": 6,
+    "name": "Rubel Hossain",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1135.png",
+    "salary": 150000
+  }, {
+    "id": 7,
+    "name": "Mustafizur Rahman",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1594.png",
+    "salary":  150000
+  }, {
+    "id": 8,
+    "name": "Mohammad Mithun",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1733.png",
+    "salary":  200000
+  }, {
+    "id": 9,
+    "name": "Sabbir Rahman",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1734.png",
+    "salary":  150000
+  }, {
+    "id": 10,
+    "name": "Soumya Sarkar",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1919.png",
+    "salary":  150000
+  }, {
+    "id": 11,
+    "name": "Abu Jayed",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/3715.png",
+    "salary":  150000
+  }, {
+    "id": 12,
+    "name": "Mehidy Hasan",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1597.png",
+    "salary": 100000
+  }, {
+    "id": 13,
+    "name": "Liton Das",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1596.png",
+    "salary": 100000
+  }, {
+    "id": 14,
+    "name": "Mosaddek Hossain",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/1588.png",
+    "salary": 100000
+  }, {
+    "id": 15,
+    "name": "Mohammad Saifuddin",
+    "image": "https://resources.pulse.icc-cricket.com/players/284/2915.png",
+    "salary": 100000
+  }]

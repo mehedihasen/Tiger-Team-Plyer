@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+
 import './App.css';
+import plyers from './data/plyers.json'
+import { useEffect, useRef, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PlyersInfo from './Components/plyers-list/PlyersInfo';
+import SelectPlyers from './Components/Select/SelectPlyers';
 
 function App() {
+ const [plyer, setPlyer] = useState([])
+ useEffect(()=>{
+   setPlyer(plyers)
+ }, [])
+const [seletplyers, setSeletplyer]= useState([])
+
+const totalSeleted=(plyer)=>{
+
+ const newSeletplyer = [...seletplyers, plyer];
+
+ setSeletplyer(newSeletplyer)
+
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Tiger Team</h1>
+    <div className="sub-continer">
+      <div className="plyerlistItem">
+        {
+            plyer.map(plyerOb=> <PlyersInfo  plyerdata={plyerOb} key={plyerOb.id}  totalSeleted={totalSeleted} ></PlyersInfo> )
+          }
+      </div>
+      <div >
+          <SelectPlyers totalSeletedplyer = {seletplyers} ></SelectPlyers>
+      </div>
     </div>
+        
+     </div>
   );
 }
 

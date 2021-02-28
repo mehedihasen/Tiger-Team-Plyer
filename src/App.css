@@ -1,11 +1,30 @@
-.App {
+.App h1 {
+  color: blueviolet;
+ 
+}
+.App{
+  padding: 20px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  margin:30px;
   text-align: center;
+  box-shadow: -1px 0 20px gray, -1px 0 20px gray;
+   margin-bottom: 30p0x;
+}
+.plyerlistItem{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+
+
+}
+.sub-continer{
+ display: grid;
+ grid-template-columns: 65% 30%;
+ grid-gap: 10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,26 +32,4 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
