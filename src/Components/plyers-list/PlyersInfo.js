@@ -1,6 +1,5 @@
 import React from 'react';
-
-import "./plyersinfo.css"
+import "./plyersinfo.css";
 
 const PlyersInfo = (props) => {
 
@@ -14,7 +13,7 @@ const PlyersInfo = (props) => {
             <div className="plyerdata">
                 <h3>{name}</h3>
                 <h4> salary : {salary}</h4>
-                <button onClick={() =>props.totalSeleted(props.plyerdata)}>select</button>
+                <button onClick={() =>props.totalSeleted(props.plyerdata) }>select</button>
              </div>`
             </div>
             

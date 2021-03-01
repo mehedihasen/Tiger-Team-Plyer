@@ -1,0 +1,14 @@
+.saummry{
+
+   
+}
+.saummry .plyer{
+   
+    box-shadow: -1px 0 20px gray, -1px 0 20px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.color{
+    color: rgb(0, 47, 255);
+    font-size: 25px;
+}
