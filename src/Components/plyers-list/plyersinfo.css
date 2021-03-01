@@ -3,16 +3,16 @@
     height: 300px;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: -1px 0 20px gray, -1px 0 20px gray;
+    box-shadow: -1px 0 20px rgb(207, 196, 196), -1px 0 20px rgb(233, 229, 229);
 
 }
 .showPlyerInfo img{
     width: 200px;
     height: 150px;
 }
-.plyerdata button{
+/* .plyerdata button{
     background-color: rgb(38, 0, 255);
     padding: 3px 30px;
     border: 1px solid rebeccapurple;
     border-radius: 5px;
-}
+} */

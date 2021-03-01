@@ -2,9 +2,10 @@
 import './App.css';
 import plyers from './data/plyers.json'
 import { useEffect, useRef, useState } from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import PlyersInfo from './Components/plyers-list/PlyersInfo';
 import SelectPlyers from './Components/Select/SelectPlyers';
+
 
 function App() {
  const [plyer, setPlyer] = useState([])
